@@ -1,0 +1,8 @@
+# Ejecutables
+*.exe
+*.out
+# Archivos compilados
+*.o
+# Temporales
+*.log
+*.tmp 
