@@ -20,8 +20,10 @@ Los restos están organizados en los siguiente niveles:
 
 Retos-Programación
 
-|--basico/
-|--intermedio/
-|--avanzado/
-|--experto/
-|--utils/
+```text
+📂 proyecto
+├── basico/
+├── intermedio/
+├── avanzado/
+├── experto/
+└── utils/
