@@ -3,14 +3,8 @@
 using namespace std;
 int main() {
     SetConsoleOutputCP(CP_UTF8);
-    int num, ultimoDig, aux;
+    int num;
     cout << "Ingrese un número: "; cin >> num;
-    ultimoDig = num;
-    aux = num;
-    while(aux != 0) {
-        ultimoDig = ultimoDig % 10;
-        aux = ultimoDig / 10;
-    }
-    cout << "Último Dígito: " << ultimoDig;
+    cout << "Último Dígito: " << num % 10;      
     return 0;
 }
